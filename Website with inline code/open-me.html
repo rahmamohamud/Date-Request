@@ -75,10 +75,18 @@
         .cat-image{
             height: 200px;
         }
-       
-   
+    
     </style>
 </head>
+
+<!--Notes: If you want to change the opening message (textbox on top) navigate to the section where I've commented '1'. There you can change the name, which is in between the '<h2>' and '</h2> tags.' For the text, you can edit the text in between the '<h4>' and '</h4> tags'.
+    
+    
+Do note that the text in between the tags '<span class="with-me">' and '</span>'' will be a different colour (pink)
+
+To change the textbox text after the user has said yes, navigate to the section where I've commented '2'. Change the text inbetween the tags.
+ 
+-->
 
 <body>
     <div class="container">
@@ -86,8 +94,16 @@
             <span class="words" id="words">
             <span id="agreed"></span>
 
-            <h2>MUHUMED IBRAHIM</h2>
-            <h4>Be a cutie and go out on a virtual date WITH ME, <br><span class="with-me">✨  YOUR WIFE ✨</span><br> on Saturday?</h4>
+            <!--1-->
+            <h2>DEAREST HUSBAND,</h2>
+            <h4>Be a cutie and go out on a virtual date WITH ME, <br>
+                
+            <!--Different colour-->
+            <span class="with-me">✨  YOUR WIFE ✨</span><br>
+            
+            <!--Rest of the text in black-->
+            on Saturday?
+            </h4>
             </span>
             
             <div id="gif">   
@@ -120,6 +136,7 @@
     //Clicking the 'yes' button
     clickingYes.addEventListener('click', function() {
         
+        //2: Change to
         //New box with different text
         document.getElementById('words').innerHTML ='<h2>YAAAAAAAAAAAAAAAAAAAY</h2><h4>✨ SEE YOU SATURDAY ✨ <br> 💞💖💛💗💖💖💛💗💖</h4>';
 

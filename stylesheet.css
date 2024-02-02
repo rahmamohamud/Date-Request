@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&family=Poppins&family=Secular+One&display=swap');
+
+body {
+    font-family: "DotGothic16", sans-serif;
+    letter-spacing: 2px;
+    background: url("https://wallpapers.com/images/hd/plain-pink-desktop-9u9zsjctss6ywyp5.jpg") center/cover no-repeat;
+    background-size: cover; 
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 20px; 
+    padding: 0; 
+    height: 100vh; 
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column; 
+}
+
+.main {
+    margin-bottom: 40px; 
+}
+
+.button-container {
+    display: flex;
+    padding-left: 50px;
+    gap: 30px; 
+    height: 180px;
+    width: 300px;
+    position: relative; 
+    z-index: 2; 
+}
+
+button{
+    height: 50px;
+    font-size: 18px;
+    width: 100px;
+    font-weight: bold;
+    background-color: wheat;
+    border: 0.5px solid rgb(202, 178, 112);
+    box-shadow: 7px 7px rgb(202, 178, 112);
+}
+
+#no{
+    position: absolute;
+}
+
+.with-me{
+    color: palevioletred;            
+}
+
+#yes:hover{
+    background-color: palevioletred;
+    color: wheat;
+}
+
+.words{
+    background-color: wheat;
+    border: 0.5px solid rgb(202, 178, 112);
+    display: inline-block;
+    box-shadow: 10px 10px rgb(202, 178, 112);
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 20px;
+} 
+.cat-image{
+    height: 200px;
+}

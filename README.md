@@ -10,7 +10,7 @@ Because using a website that gives that old internet vibe with cats and a poor p
 
 ### Additional Notes
 
-If you want to send someone the same site with a few edits, but you're not much of a coder, open the *"Website with inline code"* folder and you'll see that there is a single webpage (HTML file) with all the necessary code. There are comments inside tags that look like this *'<!--Example text-->'* or *'//Example Text'* that can guide you edit this file.
+If you want to send someone the same site with a few edits, but you're not much of a coder, open the *"Website with inline code"* folder and you'll see that there is a single webpage (HTML file) with all the necessary code. There are comments inside tags that look like this *'< !--Example text-->'* or *'//Example Text'* that can guide you edit this file.
 
 **All credits for Cat GIFs' belong to Tenor. These are the links:**
 
